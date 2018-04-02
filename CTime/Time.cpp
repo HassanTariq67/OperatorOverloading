@@ -196,9 +196,9 @@ Time Time::operator-(Time &t)
 	return t1;
 }
 
-Time Time::operator*()
+Time Time::operator*(int number)
 {
-	this->validateTime((this->days * 2), (this->hours * 2), (this->mins * 2), (this->secs * 2));
+	this->validateTime((this->days * number), (this->hours * number), (this->mins * number), (this->secs * number));
 	return *this;
 }
 

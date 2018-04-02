@@ -25,7 +25,7 @@ int main()
 		cout << t1 << " == " << t2 << " is TRUE\n";   
 	if (t1 != t2)        
 		cout << t1 << " != " << t2 << " is TRUE\n\n";
-	/*cout << t1 << " * 3 = " << t1 * 3 << '\n'; */ 
+	cout << t1 << " * 3 = " << t1 * 3 << '\n'; 
 	cout << "t2++  = " << t2++ << '\n';
 	_getche();
 }

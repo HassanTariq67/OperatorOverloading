@@ -23,7 +23,7 @@ public:
 	friend istream &operator >> (istream&, Time&);
 	Time operator + (Time&);
 	Time operator - (Time&);
-	Time operator * ();
+	Time operator * (int);
 	bool operator < (const Time&);
 	bool operator > (const Time&);
 	bool operator == (const Time&);
